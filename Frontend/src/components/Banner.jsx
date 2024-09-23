@@ -19,12 +19,12 @@ const Banner = () => {
             </svg>
             <input type="text" className="grow" placeholder="Email" />
           </label>
-          
+
         </div>
-        <button className="btn mt-4 mb-2 btn-active btn-primary">Secondary</button>
+        <button className="btn mt-4 mb-2 btn-active btn-primary">Get Started</button>
       </div>
       <div className='w-full md:w-1/2 order-1 md:order-2'>
-        <img  src={banner} alt="Book Banner" className=' my-20 w-full h-auto md:w-92 md:h-92' />
+        <img src={banner} alt="Book Banner" className=' my-20 w-full h-auto md:w-92 md:h-92' />
       </div>
     </div>
   );
